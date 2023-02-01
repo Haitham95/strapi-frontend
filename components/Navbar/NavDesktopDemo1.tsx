@@ -12,12 +12,9 @@ function classNames(...classes) {
 
 const NavDesktopDemo1 = ({ navData, setOpen }) => {
   return (
-    <div className="relative">
-      <nav
-        aria-label="Top"
-        className="relative z-20 bg-white bg-opacity-90 backdrop-filter backdrop-blur-xl"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="relative ">
+      <nav aria-label="Top" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="border-b border-gray-200">
           <div className="h-16 flex items-center">
             <button
               type="button"
@@ -41,7 +38,7 @@ const NavDesktopDemo1 = ({ navData, setOpen }) => {
             </div>
 
             {/* Flyout menus */}
-            <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch">
+            <Popover.Group className="hidden lg:ml-8 lg:block lg:self-stretch z-10">
               <div className="h-full flex space-x-8">
                 {navData.categories.map((category) => (
                   <Popover key={category.name} className="flex">
