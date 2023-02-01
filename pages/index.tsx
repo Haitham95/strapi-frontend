@@ -12,9 +12,8 @@ import { products } from "../utils/product/product-section-data";
 const IndexPage = () => {
   return (
     <>
-      <div className="bg-white">
+      <Layout title="Welcome to site">
         {/* <NavbarDemo1 /> */}
-        <NavbarDemo1 />
         <HeaderDemo1
           title="Summer styles are finally here"
           description="This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care if you live or die."
@@ -55,9 +54,7 @@ const IndexPage = () => {
             btnLink="#"
           />
         </main>
-
-        <FooterDemo1 />
-      </div>
+      </Layout>
     </>
   );
 };
