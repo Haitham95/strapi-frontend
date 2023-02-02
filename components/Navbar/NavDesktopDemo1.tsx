@@ -13,7 +13,7 @@ function classNames(...classes) {
 const NavDesktopDemo1 = ({ navData, setOpen }) => {
   return (
     <div className="relative ">
-      <nav aria-label="Top" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav aria-label="Top">
         <div className="border-b border-gray-200">
           <div className="h-16 flex items-center">
             <button

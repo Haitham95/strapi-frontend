@@ -1,12 +1,10 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
-import NavbarDemo1 from "../components/Navbar/NavbarDemo1";
 import HeaderDemo1 from "../components/Header/HeaderDemo1";
-import CategoriesSectionDemo1 from "../components/Section/CategoriesSectionDemo1";
+import CategoriesSectionDemo1 from "../components/Category/CategoriesSectionDemo1";
 import PromoSectionDemo1 from "../components/Promo/PromoSectionDemo1";
 import ProductSectionDemo1 from "../components/Product/ProductSectionDemo1";
 import PromoSectionDemo2 from "../components/Promo/PromoSectionDemo2";
-import FooterDemo1 from "../components/Footer/FooterDemo1";
 import { products } from "../utils/product/product-section-data";
 
 const IndexPage = () => {

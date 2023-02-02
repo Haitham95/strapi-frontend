@@ -16,7 +16,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
-    <div className="bg-white">
+    <div className="bg-white max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <NavbarDemo1 />
       {children}
       <FooterDemo1 />

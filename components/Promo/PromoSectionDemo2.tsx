@@ -1,6 +1,6 @@
 const PromoSectionDemo2 = ({ title, offer, btnLink, btnText }) => {
   return (
-    <div className="bg-white">
+    <section className="bg-white">
       <div className="pt-32 overflow-hidden sm:pt-14">
         <div className="bg-gray-800">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -81,7 +81,7 @@ const PromoSectionDemo2 = ({ title, offer, btnLink, btnText }) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
